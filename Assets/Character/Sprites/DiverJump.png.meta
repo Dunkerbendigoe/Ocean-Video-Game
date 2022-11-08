@@ -1,46 +1,7 @@
 fileFormatVersion: 2
-guid: c36b0e54a8d8340759ab2f1394787f1f
+guid: 9784dc89ed841a34cbf5c0f4c461b307
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 21300000
-    second: Collectable_Spin_0
-  - first:
-      213: 21300002
-    second: Collectable_Spin_1
-  - first:
-      213: 21300004
-    second: Collectable_Spin_2
-  - first:
-      213: 21300006
-    second: Collectable_Spin_3
-  - first:
-      213: 21300008
-    second: Collectable_Spin_4
-  - first:
-      213: 21300010
-    second: Collectable_Spin_5
-  - first:
-      213: 21300012
-    second: Collectable_Spin_6
-  - first:
-      213: 21300014
-    second: Collectable_Spin_7
-  - first:
-      213: 21300016
-    second: Collectable_Spin_8
-  - first:
-      213: 21300018
-    second: Collectable_Spin_9
-  - first:
-      213: 21300020
-    second: Collectable_Spin_10
-  - first:
-      213: 21300022
-    second: Collectable_Spin_11
-  - first:
-      213: 21300024
-    second: Collectable_Spin_12
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -83,10 +44,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,8 +62,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
+  applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -129,7 +90,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -141,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -156,223 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Collectable_Spin_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e2d0da01b159451a92cc32bb113cb60
-      internalID: 21300000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_Spin_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3ecb54f880dc4dd3bfb35a2871f7be4
-      internalID: 21300002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_Spin_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 721ecbf93218b4c00819ddadbaf0dab4
-      internalID: 21300004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_Spin_3
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bae1de4dd74fe468f8e40dfcf79345b1
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_Spin_4
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 252
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0563b8ccb55e740cc8c13e6d35431856
-      internalID: 21300008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_Spin_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23e43f09703334fdfb4934709d8ee285
-      internalID: 21300010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_Spin_6
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f8fa291b4e074753b9f123e2e19b92e
-      internalID: 21300012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_Spin_7
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff4564980d29c47b88bcc86132df9508
-      internalID: 21300014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_Spin_8
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0447b5b1deeae44d48233c5b2452ccb0
-      internalID: 21300016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_Spin_9
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 126
-        width: 128
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12278d3e50bba4e8e92268c5c5885902
-      internalID: 21300018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_Spin_10
+      name: DiverJump_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 126
+        width: 16
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cdb8860d217447078392769f814c345
-      internalID: 21300020
+      spriteID: cab40a2ae06966b49a933dc66b388210
+      internalID: -1851600527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Collectable_Spin_11
+      name: DiverJump_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 18
         y: 0
-        width: 128
-        height: 126
+        width: 16
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b823fd0de2144ae2a00a69aa5222848
-      internalID: 21300022
+      spriteID: 824a45f651286c44c969d1a898708288
+      internalID: 686422312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Collectable_Spin_12
+      name: DiverJump_2
       rect:
         serializedVersion: 2
-        x: 256
+        x: 36
         y: 0
-        width: 128
-        height: 126
+        width: 16
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,8 +173,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad68f8a7091f74565ba787faf559a1b2
-      internalID: 21300024
+      spriteID: 65ea309a6f05c6745941421c340c6527
+      internalID: -806041670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiverJump_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a8126e754660245819f55b3cf618f4
+      internalID: 918250581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiverJump_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620ac7d169b0b4846bf2e1617c0e35bf
+      internalID: 517850385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiverJump_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cfa71cf2669a64e814a7fd9036b95a
+      internalID: 724777723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiverJump_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 6
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a65fcf7659e834590736dfae739a72
+      internalID: -983724114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiverJump_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 17
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da54e59363d98c46bb311d589e2e14d
+      internalID: 823723218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiverJump_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 6
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a04c3da23c8c6439a9713ee1646173
+      internalID: 1082180093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiverJump_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccaaf01d900d214db18e68c966db06f
+      internalID: -545545356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiverJump_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc69593abef80ac45887600cd93d6f3b
+      internalID: -1807536277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiverJump_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4c65ad625406344943501bc3b366c5
+      internalID: 1706224518
       vertices: []
       indices: 
       edges: []
@@ -431,7 +371,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d89102cdbf12540338c7b1a55ba4eb94
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -439,19 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Collectable_Spin_10: 21300020
-      Collectable_Spin_12: 21300024
-      Collectable_Spin_2: 21300004
-      Collectable_Spin_1: 21300002
-      Collectable_Spin_4: 21300008
-      Collectable_Spin_11: 21300022
-      Collectable_Spin_5: 21300010
-      Collectable_Spin_6: 21300012
-      Collectable_Spin_3: 21300006
-      Collectable_Spin_8: 21300016
-      Collectable_Spin_7: 21300014
-      Collectable_Spin_9: 21300018
-      Collectable_Spin_0: 21300000
+      DiverJump_8: -1883730888
+      DiverJump_4: -1733133496
+      DiverJump_5: 748681067
+      DiverJump_10: -800010343
+      DiverJump_7: 517850385
+      DiverJump_9: 724777723
+      DiverJump_0: 134121904
+      DiverJump_1: -1851600527
+      DiverJump_3: -806041670
+      DiverJump_2: 686422312
+      DiverJump_6: 918250581
+      DiverJump_11: -2143986402
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
