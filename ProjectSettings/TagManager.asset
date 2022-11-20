@@ -3,13 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - TutorialRequirement
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
@@ -39,9 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 4116703095
+  - name: background
+    uniqueID: 1809809149
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: character
+    uniqueID: 1374656827
     locked: 0
