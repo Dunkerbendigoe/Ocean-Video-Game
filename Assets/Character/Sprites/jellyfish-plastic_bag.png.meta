@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4b41926a293277d4ab391e27380365fe
+guid: d9de72ef8ba8f6e438a078bdeacbcdd8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7519bfa13f799514d8ea12f6a122e9e0
-      internalID: 1744679339
+      spriteID: dae5dac9ea6db2347930e0e6a8323c5a
+      internalID: -141530058
       vertices: []
       indices: 
       edges: []
@@ -152,8 +152,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e84c63dcf4904ad409c024603c76585e
-      internalID: -577353230
+      spriteID: f318f27d0e18ef14ea9413e5d2def552
+      internalID: -1689623064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jellyfish-plastic_bag_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1e71e3bcf2a124c95da125830b50c3
+      internalID: -119423084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jellyfish-plastic_bag_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 20
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca156c1f78fe7c49b2e16cd8cfcf1b1
+      internalID: -671756086
       vertices: []
       indices: 
       edges: []
@@ -169,8 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      jellyfish-plastic_bag_1: 1405444206
-      jellyfish-plastic_bag_0: -1217562372
+      jellyfish-plastic_bag_2: -141530058
+      jellyfish-plastic_bag_1: -866822806
+      jellyfish-plastic_bag_0: -357816924
+      jellyfish-plastic_bag_3: -1689623064
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
