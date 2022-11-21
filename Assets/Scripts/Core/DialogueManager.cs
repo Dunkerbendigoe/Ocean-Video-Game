@@ -53,7 +53,7 @@ public class DialogueManager : MonoBehaviour
 		foreach (char letter in sentence.ToCharArray())
 		{
 			sentenceText.text += letter;
-			yield return null;
+			yield return 5;
 		}
 	}
 	
