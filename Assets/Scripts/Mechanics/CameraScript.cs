@@ -11,7 +11,6 @@ public class CameraScript : MonoBehaviour
     {
         Destroy(GetComponent("CinemachineBrain"));
 
-        // Move camera to fit autoscroll section
         transform.position = transform.position + new Vector3(0, 2.5f, 0);
     }
 
