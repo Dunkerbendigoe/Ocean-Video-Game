@@ -6,27 +6,22 @@ public class TransformScript : MonoBehaviour
 {
     public RuntimeAnimatorController diverController;
     public RuntimeAnimatorController turtleController;
-    Animator animatora;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        animatora = GameObject.FindWithTag("Player").GetComponent<Animator>();   
+        animator = GameObject.FindWithTag("Player").GetComponent<Animator>();   
     }
 
-    /*
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("f"))
-        {
-            animator.runtimeAnimatorController = turtleController as RuntimeAnimatorController;
-        }
+
     }
-    */
 
     void OnTriggerEnter2D() 
     {
-        animatora.runtimeAnimatorController = turtleController as RuntimeAnimatorController;
+        animator.runtimeAnimatorController = turtleController as RuntimeAnimatorController;
     }
 }
