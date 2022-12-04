@@ -2,26 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TransformScript : MonoBehaviour
+namespace Platformer.Mechanics
 {
-    public RuntimeAnimatorController diverController;
-    public RuntimeAnimatorController turtleController;
-    Animator animator;
-
-    // Start is called before the first frame update
-    void Start()
+    public class TransformScript : MonoBehaviour
     {
-        animator = GameObject.FindWithTag("Player").GetComponent<Animator>();   
-    }
+        public RuntimeAnimatorController diverController;
+        public RuntimeAnimatorController turtleController;
+        Animator animator;
 
-    // Update is called once per frame
-    void Update()
-    {
+        // Start is called before the first frame update
+        void Start()
+        {
+            animator = GameObject.FindWithTag("Player").GetComponent<Animator>();   
+        }
 
-    }
+        // Update is called once per frame
+        void Update()
+        {
 
-    void OnTriggerEnter2D() 
-    {
-        animator.runtimeAnimatorController = turtleController as RuntimeAnimatorController;
+        }
+
+        void OnTriggerEnter2D() 
+        {
+            animator.runtimeAnimatorController = turtleController as RuntimeAnimatorController;
+        }
     }
 }
