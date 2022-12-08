@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -317,14 +317,14 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       DiverTransform_3: -2032247388
-      DiverTransform_6: 941727431
+      DiverTransform_0: -1671837286
       DiverTransform_4: -2027270463
       DiverTransform_2: -1250707404
       DiverTransform_5: 516913853
       DiverTransform_1: 1956349964
       DiverTransform_8: -1374558774
       DiverTransform_7: 682099226
-      DiverTransform_0: -1671837286
+      DiverTransform_6: 941727431
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
