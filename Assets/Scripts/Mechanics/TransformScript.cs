@@ -9,11 +9,13 @@ namespace Platformer.Mechanics
         public RuntimeAnimatorController diverController;
         public RuntimeAnimatorController turtleController;
         Animator animator;
+        BoxCollider2D boxCollider2D;
 
         // Start is called before the first frame update
         void Start()
         {
-            animator = GameObject.FindWithTag("Player").GetComponent<Animator>();   
+            boxCollider2D = GameObject.FindWithTag("Player").GetComponent<BoxCollider2D>();
+            animator = GameObject.FindWithTag("Player").GetComponent<Animator>();
         }
 
         // Update is called once per frame
@@ -25,6 +27,7 @@ namespace Platformer.Mechanics
         void OnTriggerEnter2D() 
         {
             animator.runtimeAnimatorController = turtleController as RuntimeAnimatorController;
+            boxCollider2D.size = new Vector2(1.25f, 0.625f);
         }
     }
 }

@@ -6,7 +6,7 @@ namespace Platformer.Mechanics
 {
     public class CameraScript : MonoBehaviour
     {
-        public float speed = 0.01f;
+        public float speed = 0.009f;
 
         // Start is called before the first frame update
         void Start()
