@@ -1,6 +1,7 @@
 using Platformer.Gameplay;
 using UnityEngine;
 using static Platformer.Core.Simulation;
+using UnityEngine.SceneManagement;
 
 namespace Platformer.Mechanics
 {
@@ -11,12 +12,15 @@ namespace Platformer.Mechanics
     {
         void OnTriggerEnter2D(Collider2D collider)
         {
+            /*
             var p = collider.gameObject.GetComponent<PlayerController>();
             if (p != null)
             {
                 var ev = Schedule<PlayerEnteredVictoryZone>();
                 ev.victoryZone = this;
             }
+            */
+            SceneManager.LoadScene("Thanks For Playing");
         }
     }
 }
